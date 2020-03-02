@@ -13,16 +13,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
   background-color: #111;
-  padding: 30px;
+  padding:30px;
   text-align: center;
   font-size: 35px;
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 30%;
@@ -31,8 +29,7 @@ nav {
   padding: 20px;
 }
 
-/* Style the list inside the menu */
-nav ul {
+nav ull {
   list-style-type: none;
   padding: 0;
 }
@@ -60,7 +57,7 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -71,33 +68,27 @@ footer {
 </head>
 <body>
 
-<h2>CSS Layout Float</h2>
-<p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect (you will learn more about this in our next chapter - HTML Responsive.)</p>
 
 <header>
-  <h2>Cities</h2>
+  <h2>NexusNeo</h2>
 </header>
 
 <section>
   <nav>
     <ul>
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+      <li><a href="https://twitter.com/NexusNeo_">Twitter</a></li>
+      <li><a href="https://www.twitch.tv/nexusneo_">Twitch</a></li>
+      <li><a href="Https://discord.gg/twpd6TU">Discord</a></li>
     </ul>
   </nav>
   
   <article>
-    <h1>London</h1>
-    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+    <h1>Player</h1>
+    <p>Nazier "NexusNeo" Lacy Is one of the best Mr.Game And watch players in new england For Super Smash Bros. Ultimate and he shows great promise to the competetive scene</p>
+    <p>Coming from Massachusstes nexus Has made consistent results that prove him skill and he has gotten a few upsets on players such as Br1 av </p>
   </article>
 </section>
 
-<footer>
-  <p>Footer</p>
-</footer>
 
 </body>
 </html>
