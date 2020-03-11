@@ -1,7 +1,6 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>NexusNeo</title>
+<title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -10,105 +9,74 @@
 }
 
 body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: #111;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
   color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
 }
 
-nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-nav ull {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
 }
 </style>
 </head>
 <body>
 
+<div class="sidenav">
+  <a href="https://github.com/NazierLacy1/Nazier-lacy-Portfolio/blob/master/Player">Player</a>
+  <a href="#">Skills and weaknesses</a>
+  <a href="#">Link</a>
+</div>
 
-<header>
-  <h2>NexusNeo</h2>
-</header>
-
-<section>
-  <nav>
-    <ul>
-      <li><a href="https://twitter.com/NexusNeo_">Twitter</a></li>
-      <li><a href="https://www.twitch.tv/nexusneo_">Twitch</a></li>
-      <li><a href="Https://discord.gg/twpd6TU">Discord</a></li>
-    </ul>
-  </nav>
+<div class="content">
+  <h2>Nazier Lacy</h2>
+  <p>A full-height, fixed sidenav and content.</p>
+</div>
   
-  <article>
-    <h1>Player</h1>
-    <p>Nazier "NexusNeo" Lacy Is one of the best Mr.Game And watch players in new england For Super Smash Bros. Ultimate and he shows great promise to the competetive scene</p>
-    <p>Coming from Massachusstes nexus Has made consistent results that prove him skill and he has gotten a few upsets on players such as Br1 av </p>
-  </article>
-</section>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mm0v0mmaqo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
-
-
-</body>
-</html>
-
-<script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org/", 
   "@type": "BreadcrumbList", 
   "itemListElement": [{
     "@type": "ListItem", 
     "position": 1, 
-    "name": "Player",
-    "item": "https://github.com/NazierLacy1/Nazier-lacy-Portfolio/edit/master/index.html"  
+    "name": "Person",
+    "item": "https://nazierlacy1.github.io/Nazier-lacy-Portfolio/"  
   },{
     "@type": "ListItem", 
     "position": 2, 
-    "name": "NexusNeo",
-    "item": "https://github.com/NazierLacy1/Nazier-lacy-Portfolio/edit/master/index.html"  
+    "name": "Nazier Lacy",
+    "item": "https://nazierlacy1.github.io/Nazier-lacy-Portfolio/"  
   }]
 }
 </script>
+  
+</body>
+</html>
